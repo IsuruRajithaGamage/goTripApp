@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/travel_female_tourist_standing_with_luggage_young_vector_20664153"
+    tools:context=".SignupUser">
+
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="327dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="56dp"
+        android:background="#2B2B2B"
+        android:backgroundTint="#4CAF50"
+        android:text="SignUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <Button
+        android:id="@+id/btnnew"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:onClick="gologin"
+        android:text="LogIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsignup" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="356dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/snow"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/snow"
+        android:ems="10"
+        android:hint="Set Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

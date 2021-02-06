@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "479727023783",
+    "project_id": "newa-5c1a1",
+    "storage_bucket": "newa-5c1a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479727023783:android:f53927c528ab722e71cd82",
+        "android_client_info": {
+          "package_name": "com.isurucreation.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479727023783-ksg04d98sdu1h12b26umvhlad8bdmr41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2KDlmqAUAcEJm3ERLrdjNd1mKLhPgIB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479727023783-ksg04d98sdu1h12b26umvhlad8bdmr41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479727023783:android:98c50c69f402315171cd82",
+        "android_client_info": {
+          "package_name": "com.isurucreation.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479727023783-ksg04d98sdu1h12b26umvhlad8bdmr41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2KDlmqAUAcEJm3ERLrdjNd1mKLhPgIB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479727023783-ksg04d98sdu1h12b26umvhlad8bdmr41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
