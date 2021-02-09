@@ -9,11 +9,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+
 import com.google.firebase.auth.FirebaseAuth;
 
 public class welcomeScreen extends AppCompatActivity {
 
     ImageButton btnplaces,btnHotels;
+    ImageView newimge;
     Button btnLogout;
     FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListner;
