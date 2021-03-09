@@ -8,6 +8,7 @@ public class downalodplaces implements Parcelable {
     String nameOFplace;
      String description;
     String place;
+    
 
 
 
